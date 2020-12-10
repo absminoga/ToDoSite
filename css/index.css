@@ -1,0 +1,1206 @@
+/* --------------- Fonts ------------------ */
+@font-face {
+  font-family: 'RalewayRegular';
+  src: url("../fonts/Raleway/Raleway-Regular.eot");
+  src: url("../fonts/Raleway/Raleway-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway/Raleway-Regular.woff") format("woff"), url("../fonts/Raleway/Raleway-Regular.ttf") format("truetype"), url("../fonts/Raleway/Raleway-Regular.svg#RalewayRegular") format("svg");
+  font-style: normal;
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'RalewayBold';
+  src: url("../fonts/Raleway/Raleway-Bold.eot");
+  src: url("../fonts/Raleway/Raleway-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway/Raleway-Bold.woff") format("woff"), url("../fonts/Raleway/Raleway-Bold.ttf") format("truetype"), url("../fonts/Raleway/Raleway-Bold.svg#RalewayBold") format("svg");
+  font-style: normal;
+  font-weight: 700; }
+
+@font-face {
+  font-family: 'RalewaySemiBold';
+  src: url("../fonts/Raleway/Raleway-SemiBold.eot");
+  src: url("../fonts/Raleway/Raleway-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway/Raleway-SemiBold.woff") format("woff"), url("../fonts/Raleway/Raleway-SemiBold.ttf") format("truetype"), url("../fonts/Raleway/Raleway-SemiBold.svg#RalewaySemiBold") format("svg");
+  font-style: normal;
+  font-weight: 600; }
+
+@font-face {
+  font-family: 'MontserratRegular';
+  src: url("../fonts/Montserrat/Montserrat-Regular.eot");
+  src: url("../fonts/Montserrat/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype"), url("../fonts/Montserrat/Montserrat-Regular.svg#MontserratRegular") format("svg");
+  font-style: normal;
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'MontserratBold';
+  src: url("../fonts/Montserrat/Montserrat-Bold.eot");
+  src: url("../fonts/Montserrat/Montserrat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype"), url("../fonts/Montserrat/Montserrat-Bold.svg#MontserratBold") format("svg");
+  font-style: normal;
+  font-weight: 600; }
+
+@font-face {
+  font-family: 'KnewaveRegular';
+  src: url("../fonts/Knewave/Knewave-Regular.eot");
+  src: url("../fonts/Knewave/Knewave-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Knewave/Knewave-Regular.woff") format("woff"), url("../fonts/Knewave/Knewave-Regular.ttf") format("truetype"), url("../fonts/Knewave/Knewave-Regular.svg#KnewaveRegular") format("svg");
+  font-style: normal;
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("../fonts/Fontawesome/fontawesome-webfont.eot");
+  src: url("../fonts/Fontawesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Fontawesome/fontawesome-webfont.woff") format("woff"), url("../fonts/Fontawesome/fontawesome-webfont.ttf") format("truetype"), url("../fonts/Fontawesome/fontawesome-webfont.svg#FontAwesome") format("svg"); }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+img {
+  height: auto;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  vertical-align: middle; }
+
+a,
+button,
+input {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: black; }
+
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto; }
+
+.wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  width: 100%; }
+
+.section {
+  position: relative;
+  padding-bottom: -webkit-calc(40px + 7vw);
+  padding-bottom: calc(40px + 7vw);
+  width: 100%; }
+
+.section_two .container {
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+  .section_two .container .wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-flex-wrap: unset;
+        -ms-flex-wrap: unset;
+            flex-wrap: unset;
+    width: 100%;
+    height: 100vh;
+    min-width: 300px;
+    background: #f9f3f3; }
+
+.container_section_menu {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 35%;
+      -ms-flex: 1 1 35%;
+          flex: 1 1 35%;
+  min-width: 320px;
+  padding: -webkit-calc(10px + 1vw);
+  padding: calc(10px + 1vw); }
+  .container_section_menu .container_section_menu_top {
+    width: 100%;
+    height: -webkit-calc(50px + 1vw);
+    height: calc(50px + 1vw);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 2px solid rgba(69, 69, 69, 0.7); }
+    .container_section_menu .container_section_menu_top .container_date,
+    .container_section_menu .container_section_menu_top .container_time {
+      font-family: "MontserratBold";
+      font-size: -webkit-calc(16px + 0.5vw);
+      font-size: calc(16px + 0.5vw);
+      text-transform: capitalize;
+      text-align: center;
+      color: #454545;
+      font-weight: 700; }
+  .container_section_menu .container_section_menu_buttom {
+    padding: -webkit-calc(10px + 1vw) 0;
+    padding: calc(10px + 1vw) 0; }
+    .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-flex-wrap: unset;
+          -ms-flex-wrap: unset;
+              flex-wrap: unset;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      padding: 10px 0;
+      margin-bottom: 5px;
+      -webkit-transition: all 0.5s ease-in-out;
+      -o-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out;
+      cursor: pointer;
+      width: 100%; }
+      .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .section_two_tabs_text i {
+        padding-left: 20px;
+        padding-right: -webkit-calc(10px + 1vw);
+        padding-right: calc(10px + 1vw);
+        font-size: -webkit-calc(20px + 0.4vw);
+        font-size: calc(20px + 0.4vw); }
+      .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .section_two_tabs_text .section_two_tabs_title {
+        font-size: -webkit-calc(16px + 0.3vw);
+        font-size: calc(16px + 0.3vw);
+        margin-right: -webkit-calc(20px + 1vw);
+        margin-right: calc(20px + 1vw); }
+      .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .section_two_tabs_text .fa-plus-circle,
+      .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .section_two_tabs_text .fa-plus-circle ~ span {
+        color: #6576da; }
+      .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .section_two_tabs_text .fa-calendar-alt,
+      .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .section_two_tabs_text .fa-calendar-alt ~ span {
+        color: #9f6d02; }
+      .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .section_two_tabs_text .fa-calendar-check,
+      .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .section_two_tabs_text .fa-calendar-check ~ span {
+        color: #3c8e87; }
+      .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .section_two_tabs_text .fa-calendar-times,
+      .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .section_two_tabs_text .fa-calendar-times ~ span {
+        color: #a74747; }
+      .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs span {
+        font-size: -webkit-calc(16px + 0.3vw);
+        font-size: calc(16px + 0.3vw);
+        font-family: "MontserratBold";
+        text-transform: capitalize;
+        color: #454545;
+        margin-right: 15px; }
+      .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .add_task_counter {
+        color: #6576da; }
+      .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .incomplet_task_counter {
+        color: #9f6d02; }
+      .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .complet_task_counter {
+        color: #3c8e87; }
+      .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .expire_task_counter {
+        color: #a74747; }
+    .container_section_menu .container_section_menu_buttom .container_tabs .active {
+      background-color: rgba(69, 69, 69, 0.2);
+      border-radius: 10px; }
+
+.container_section_task_dashboard {
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 65%;
+      -ms-flex: 1 1 65%;
+          flex: 1 1 65%;
+  min-width: 320px;
+  height: 100%;
+  padding: -webkit-calc(10px + 1vw);
+  padding: calc(10px + 1vw);
+  border-left: 1px solid rgba(255, 255, 255, 0);
+  z-index: 99; }
+  .container_section_task_dashboard img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-transition: opacity .8s ease-in;
+    -o-transition: opacity .8s ease-in;
+    transition: opacity .8s ease-in;
+    z-index: -1; }
+  .container_section_task_dashboard .show {
+    opacity: 1; }
+  .container_section_task_dashboard .container_section_task_dashboard_header {
+    height: -webkit-calc(50px + 1vw);
+    height: calc(50px + 1vw);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 2px solid white;
+    z-index: 99; }
+    .container_section_task_dashboard .container_section_task_dashboard_header h2 {
+      font-family: "MontserratBold";
+      font-size: -webkit-calc(20px + 1vw);
+      font-size: calc(20px + 1vw);
+      text-transform: capitalize;
+      text-align: center;
+      color: white;
+      text-shadow: 0 0 10px black; }
+    .container_section_task_dashboard .container_section_task_dashboard_header .fa-arrow-circle-left {
+      display: none;
+      color: white;
+      text-shadow: 0 0 10px black;
+      font-size: -webkit-calc(25px + 1.2vw);
+      font-size: calc(25px + 1.2vw);
+      border-radius: 50%;
+      margin-right: 40px;
+      cursor: pointer;
+      -webkit-transition: color 0.8s linear;
+      -o-transition: color 0.8s linear;
+      transition: color 0.8s linear; }
+    .container_section_task_dashboard .container_section_task_dashboard_header .btn_pulse {
+      -webkit-animation: shadow-pulse 1s infinite;
+              animation: shadow-pulse 1s infinite; }
+  .container_section_task_dashboard .tab_content {
+    position: relative;
+    width: 100%;
+    height: 90%;
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    .container_section_task_dashboard .tab_content .tabs_dashboard {
+      position: relative;
+      width: 100%;
+      height: 85vh;
+      padding: -webkit-calc(10px + 1vw) 0;
+      padding: calc(10px + 1vw) 0;
+      display: none;
+      margin-top: -1px;
+      overflow: auto;
+      overflow-y: none; }
+      .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card {
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding: -webkit-calc(10px + 1vw);
+        padding: calc(10px + 1vw);
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.7); }
+        .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card h3 {
+          width: 100%;
+          font-family: "MontserratBold";
+          font-size: -webkit-calc(10px + 1vw);
+          font-size: calc(10px + 1vw);
+          text-transform: capitalize;
+          text-align: left;
+          margin-bottom: -webkit-calc(10px + 0.5vw);
+          margin-bottom: calc(10px + 0.5vw);
+          padding: 10px 0;
+          padding-left: 10px;
+          background-color: white;
+          border-radius: 10px;
+          color: #6576da; }
+        .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .tabs_dashboard_list_card_title h4 {
+          width: 100%;
+          font-family: "MontserratBold";
+          font-size: -webkit-calc(10px + 0.6vw);
+          font-size: calc(10px + 0.6vw);
+          text-transform: capitalize;
+          margin-bottom: 5px;
+          color: #616161;
+          padding-left: 10px; }
+        .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card #new_title {
+          width: 100%;
+          height: 35px;
+          margin-bottom: 3px;
+          border: 1px solid rgba(69, 69, 69, 0.7);
+          border-radius: 10px;
+          padding: 5px 10px;
+          font-family: "MontserratRegular";
+          font-size: -webkit-calc(10px + 0.6vw);
+          font-size: calc(10px + 0.6vw);
+          color: #616161;
+          text-transform: capitalize;
+          outline: none;
+          resize: none;
+          white-space: nowrap;
+          background: white;
+          -webkit-transition: all .5s ease-in-out;
+          -o-transition: all .5s ease-in-out;
+          transition: all .5s ease-in-out; }
+        .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .error_Title {
+          border: 1px solid rgba(218, 3, 3, 0.954) !important;
+          background: rgba(218, 3, 3, 0.1) !important; }
+        .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card #warning {
+          width: 100%;
+          margin-bottom: 3px;
+          border-radius: 10px;
+          height: 35px;
+          padding: 5px 10px;
+          font-family: "MontserratRegular";
+          font-size: -webkit-calc(10px + 0.6vw);
+          font-size: calc(10px + 0.6vw);
+          text-transform: capitalize;
+          outline: none;
+          resize: none;
+          border: 1px solid rgba(218, 3, 3, 0.954);
+          color: rgba(218, 3, 3, 0.954); }
+        .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .text-counter {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: row;
+              -ms-flex-direction: row;
+                  flex-direction: row;
+          -webkit-box-pack: end;
+          -webkit-justify-content: flex-end;
+              -ms-flex-pack: end;
+                  justify-content: flex-end;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          width: 100%;
+          padding-right: 20px;
+          font-family: "MontserratBold";
+          font-size: -webkit-calc(5px + 0.5vw);
+          font-size: calc(5px + 0.5vw);
+          color: #616161; }
+        .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .warning {
+          color: rgba(218, 3, 3, 0.954); }
+        .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .tabs_dashboard_list_card_description h4 {
+          width: 100%;
+          font-family: "MontserratBold";
+          font-size: -webkit-calc(10px + 0.6vw);
+          font-size: calc(10px + 0.6vw);
+          text-transform: capitalize;
+          margin-bottom: 5px;
+          color: #616161;
+          padding-left: 10px; }
+        .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card #new_task {
+          width: 100%;
+          height: -webkit-calc(100px + 2vw);
+          height: calc(100px + 2vw);
+          border: 1px solid rgba(69, 69, 69, 0.7);
+          border-radius: 10px;
+          padding: 5px 10px;
+          font-family: "MontserratRegular";
+          font-size: -webkit-calc(10px + 0.6vw);
+          font-size: calc(10px + 0.6vw);
+          color: #454545;
+          text-transform: capitalize;
+          margin-bottom: 20px;
+          outline: none;
+          resize: none;
+          background: white;
+          -webkit-transition: all .5s ease-in-out;
+          -o-transition: all .5s ease-in-out;
+          transition: all .5s ease-in-out; }
+        .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .error_Description {
+          border: 1px solid #da0303 !important;
+          background: rgba(218, 3, 3, 0.1) !important; }
+        .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .date_completion {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: row;
+              -ms-flex-direction: row;
+                  flex-direction: row;
+          -webkit-flex-wrap: wrap;
+              -ms-flex-wrap: wrap;
+                  flex-wrap: wrap;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+          width: 100%;
+          position: relative; }
+          .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .date_completion p {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1 1 100%;
+                -ms-flex: 1 1 100%;
+                    flex: 1 1 100%;
+            font-family: "MontserratBold";
+            font-size: -webkit-calc(10px + 0.6vw);
+            font-size: calc(10px + 0.6vw);
+            color: #616161;
+            padding: 0 10px;
+            text-transform: capitalize;
+            margin-bottom: 5px; }
+          .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .date_completion .date_field_container {
+            position: relative;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: row;
+                -ms-flex-direction: row;
+                    flex-direction: row;
+            -webkit-box-pack: start;
+            -webkit-justify-content: flex-start;
+                -ms-flex-pack: start;
+                    justify-content: flex-start;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            height: 32px;
+            width: -webkit-calc(200px + 10vw);
+            width: calc(200px + 10vw);
+            padding: 5px 10px;
+            border: 1px solid rgba(69, 69, 69, 0.7);
+            border-radius: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            outline: none;
+            text-align: left;
+            resize: none;
+            background: white;
+            -webkit-transition: all .5s ease-in-out;
+            -o-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
+            cursor: pointer; }
+            .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .date_completion .date_field_container .date_field {
+              font-family: "MontserratBold";
+              font-size: -webkit-calc(10px + 0.5vw);
+              font-size: calc(10px + 0.5vw);
+              color: #454545; }
+            .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .date_completion .date_field_container .fa-calendar-alt {
+              position: absolute;
+              font-size: -webkit-calc(10px + 0.5vw);
+              font-size: calc(10px + 0.5vw);
+              color: #454545;
+              right: 10px; }
+            .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .date_completion .date_field_container .without_date {
+              color: #008872; }
+          .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .date_completion .error_Date {
+            border: 1px solid #da0303;
+            background: rgba(218, 3, 3, 0.1) !important; }
+          .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .date_completion .add_btn {
+            -webkit-align-self: flex-end;
+                -ms-flex-item-align: end;
+                    align-self: flex-end;
+            font-size: -webkit-calc(10px + 2vw);
+            font-size: calc(10px + 2vw);
+            font-family: "MontserratBold";
+            font-size: -webkit-calc(10px + 0.6vw);
+            font-size: calc(10px + 0.6vw);
+            padding: 5px 10px;
+            margin-bottom: 10px;
+            border: 1px solid rgba(69, 69, 69, 0.7);
+            border-radius: 10px;
+            text-transform: capitalize;
+            color: white;
+            background-color: #6576da;
+            -webkit-transition: all 0.4s ease-in-out;
+            -o-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+            cursor: pointer; }
+          .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .date_completion .btn_warning {
+            color: #ac0202; }
+        .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .clendar_container {
+          position: absolute;
+          padding: 10px;
+          text-align: center;
+          border: 1px solid #eee;
+          border-radius: 10px;
+          font-size: -webkit-calc(14px + 0.3vw);
+          font-size: calc(14px + 0.3vw);
+          background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#d3d3d3));
+          background-image: -o-linear-gradient(#fff, #d3d3d3);
+          background-image: linear-gradient(#fff, #d3d3d3);
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+                  transform: translate(-50%, -50%);
+          -webkit-transition: all 0.8s ease-in-out;
+          -o-transition: all 0.8s ease-in-out;
+          transition: all 0.8s ease-in-out; }
+          .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .clendar_container div {
+            padding: 0; }
+          .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .clendar_container .calendar_header {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: row;
+                -ms-flex-direction: row;
+                    flex-direction: row;
+            -webkit-box-pack: justify;
+            -webkit-justify-content: space-between;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            margin-bottom: 10px; }
+            .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .clendar_container .calendar_header .calendar_month_year {
+              font-family: "MontserratBold"; }
+            .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .clendar_container .calendar_header .fa-arrow-left,
+            .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .clendar_container .calendar_header .fa-arrow-right {
+              cursor: pointer;
+              color: black;
+              -webkit-transition: color 0.4s ease-in-out;
+              -o-transition: color 0.4s ease-in-out;
+              transition: color 0.4s ease-in-out; }
+            .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .clendar_container .calendar_header .fa-arrow-left:hover,
+            .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .clendar_container .calendar_header .fa-arrow-right:hover {
+              color: #b33a3a; }
+          .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .clendar_container .calendar_dates .date_fields {
+            font-family: "MontserratRegular";
+            padding: 5px;
+            background-color: transparent;
+            border-radius: 50%;
+            -webkit-transition: all 0.6s ease-in-out;
+            -o-transition: all 0.6s ease-in-out;
+            transition: all 0.6s ease-in-out;
+            color: black;
+            cursor: pointer; }
+          .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .clendar_container .calendar_dates .date_fields:hover {
+            background-color: #dcc3fc; }
+          .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .clendar_container .calendar_dates .today_day_field {
+            background-color: #542aea;
+            color: white; }
+          .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .clendar_container .calendar_dates .row_fields {
+            border: 1px solid rdba(0, 0, 0, 1);
+            background-color: rgba(69, 69, 69, 0.4); }
+            .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .clendar_container .calendar_dates .row_fields td {
+              font-family: "MontserratBold";
+              font-size: 10px;
+              padding: 5px; }
+        .container_section_task_dashboard .tab_content .tabs_dashboard .tabs_dashboard_list_card .calendar_card {
+          display: none; }
+      .container_section_task_dashboard .tab_content .tabs_dashboard .container_item h3 {
+        width: 100%;
+        font-family: "MontserratBold";
+        font-size: -webkit-calc(10px + 1vw);
+        font-size: calc(10px + 1vw);
+        text-transform: capitalize;
+        text-align: left;
+        margin-bottom: -webkit-calc(10px + 0.5vw);
+        margin-bottom: calc(10px + 0.5vw);
+        padding: 10px 0;
+        padding-left: 10px;
+        background-color: white;
+        border-radius: 10px; }
+      .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        width: 100%; }
+        .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .task_card {
+          position: relative;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: row;
+              -ms-flex-direction: row;
+                  flex-direction: row;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          background-color: rgba(255, 255, 255, 0.7);
+          padding: -webkit-calc(10px + 1vw);
+          padding: calc(10px + 1vw);
+          border-radius: 10px;
+          margin-bottom: -webkit-calc(10px + 0.5vw);
+          margin-bottom: calc(10px + 0.5vw);
+          width: 100%;
+          text-align: center; }
+          .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .task_card .squaredOne {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1 1 auto;
+                -ms-flex: 1 1 auto;
+                    flex: 1 1 auto;
+            min-width: 24px;
+            max-width: 24px;
+            height: 24px;
+            position: relative;
+            margin: 5px;
+            background: #fcfff4;
+            -webkit-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+                    box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+            border-radius: 5px; }
+            .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .task_card .squaredOne label {
+              width: 16px;
+              height: 16px;
+              position: absolute;
+              top: 4px;
+              left: 4px;
+              cursor: pointer;
+              background: -webkit-gradient(linear, left top, left bottom, from(#222), to(#45484d));
+              background: -o-linear-gradient(top, #222 0%, #45484d 100%);
+              background: linear-gradient(to bottom, #222 0%, #45484d 100%);
+              -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px white;
+                      box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px white;
+              -webkit-transition: all .7s ease-in-out;
+              -o-transition: all .7s ease-in-out;
+              transition: all .7s ease-in-out; }
+              .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .task_card .squaredOne label:after {
+                content: '';
+                width: 12px;
+                height: 12px;
+                position: absolute;
+                top: 2px;
+                left: 2px;
+                background: #029f8c;
+                -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+                        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+                opacity: 0;
+                -webkit-transition: all .7s ease-in-out;
+                -o-transition: all .7s ease-in-out;
+                transition: all .7s ease-in-out; }
+              .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .task_card .squaredOne label:hover::after {
+                opacity: 0.5; }
+            .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .task_card .squaredOne input[type=checkbox] {
+              visibility: hidden; }
+              .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .task_card .squaredOne input[type=checkbox]:checked + label:after {
+                opacity: 1; }
+          .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .task_card .block_text_description {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1 1 85%;
+                -ms-flex: 1 1 85%;
+                    flex: 1 1 85%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-align: start;
+            -webkit-align-items: flex-start;
+                -ms-flex-align: start;
+                    align-items: flex-start;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            padding: 10px; }
+            .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .task_card .block_text_description .input_title {
+              width: 100%;
+              height: auto;
+              border: 1px solid #5c5c5c;
+              border-radius: 10px;
+              font-family: "MontserratRegular";
+              font-size: -webkit-calc(12px + 0.6vw);
+              font-size: calc(12px + 0.6vw);
+              color: black;
+              text-transform: capitalize;
+              padding: 0 10px;
+              margin-bottom: 10px;
+              outline: none;
+              resize: none;
+              background: rgba(255, 255, 255, 0.5); }
+            .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .task_card .block_text_description .input_description {
+              width: 100%;
+              height: -webkit-calc(50px + 2vw);
+              height: calc(50px + 2vw);
+              border: 1px solid black;
+              border-radius: 10px;
+              padding: 5px 10px;
+              font-family: "MontserratRegular";
+              font-size: -webkit-calc(12px + 0.6vw);
+              font-size: calc(12px + 0.6vw);
+              color: black;
+              text-transform: capitalize;
+              outline: none;
+              margin-bottom: 10px;
+              resize: none;
+              background: rgba(255, 255, 255, 0.5);
+              -webkit-transition: all 0.6s ease-in-out;
+              -o-transition: all 0.6s ease-in-out;
+              transition: all 0.6s ease-in-out; }
+            .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .task_card .block_text_description .bg_field {
+              background: white;
+              -webkit-transition: all 0.6s ease-in-out;
+              -o-transition: all 0.6s ease-in-out;
+              transition: all 0.6s ease-in-out; }
+            .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .task_card .block_text_description .date_completion {
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-orient: horizontal;
+              -webkit-box-direction: normal;
+              -webkit-flex-direction: row;
+                  -ms-flex-direction: row;
+                      flex-direction: row;
+              -webkit-flex-wrap: wrap;
+                  -ms-flex-wrap: wrap;
+                      flex-wrap: wrap;
+              -webkit-box-align: center;
+              -webkit-align-items: center;
+                  -ms-flex-align: center;
+                      align-items: center;
+              -webkit-box-pack: start;
+              -webkit-justify-content: flex-start;
+                  -ms-flex-pack: start;
+                      justify-content: flex-start;
+              width: 100%;
+              position: relative; }
+              .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .task_card .block_text_description .date_completion .date_field_container {
+                position: relative;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: horizontal;
+                -webkit-box-direction: normal;
+                -webkit-flex-direction: row;
+                    -ms-flex-direction: row;
+                        flex-direction: row;
+                -webkit-box-pack: start;
+                -webkit-justify-content: flex-start;
+                    -ms-flex-pack: start;
+                        justify-content: flex-start;
+                -webkit-box-align: center;
+                -webkit-align-items: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                height: 32px;
+                width: -webkit-calc(50px + 20vw);
+                width: calc(50px + 20vw);
+                color: #454545;
+                padding: 5px 10px;
+                border: 1px solid rgba(69, 69, 69, 0.7);
+                border-radius: 10px;
+                margin-right: 10px;
+                outline: none;
+                text-align: left;
+                resize: none;
+                background: rgba(255, 255, 255, 0.5); }
+                .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .task_card .block_text_description .date_completion .date_field_container .date_field {
+                  font-family: "MontserratBold";
+                  font-size: -webkit-calc(10px + 0.5vw);
+                  font-size: calc(10px + 0.5vw); }
+                .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .task_card .block_text_description .date_completion .date_field_container .fa-calendar-alt {
+                  position: absolute;
+                  font-size: -webkit-calc(10px + 0.5vw);
+                  font-size: calc(10px + 0.5vw);
+                  color: #943437;
+                  right: 10px; }
+                .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .task_card .block_text_description .date_completion .date_field_container .without_date {
+                  color: #357d74; }
+                .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .task_card .block_text_description .date_completion .date_field_container .fulfillment_date {
+                  color: #943437; }
+              .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .task_card .block_text_description .date_completion .calendar_btn {
+                font-family: "MontserratBold";
+                font-size: -webkit-calc(10px + 0.6vw);
+                font-size: calc(10px + 0.6vw);
+                color: #454545;
+                padding: 5px 10px;
+                border: 1px solid rgba(69, 69, 69, 0.7);
+                border-radius: 10px;
+                text-transform: capitalize;
+                cursor: pointer; }
+          .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .task_card .button_item {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1 1 10%;
+                -ms-flex: 1 1 10%;
+                    flex: 1 1 10%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            padding: 10px; }
+            .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .task_card .button_item .edit,
+            .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .task_card .button_item .delete {
+              width: 100%;
+              padding: 5px;
+              margin-bottom: 10px;
+              font-family: "MontserratBold";
+              font-size: 14px;
+              background: transparent;
+              text-transform: capitalize;
+              outline: none;
+              border: 1px solid rgba(69, 69, 69, 0.7);
+              border-radius: 10px;
+              cursor: pointer;
+              color: #454545;
+              -webkit-transition: all 0.7s ease-in-out;
+              -o-transition: all 0.7s ease-in-out;
+              transition: all 0.7s ease-in-out; }
+            .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .task_card .button_item .edit_change {
+              background: rgba(255, 255, 255, 0.7);
+              color: #ff0202;
+              border: 1px solid #ff0202; }
+            .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .task_card .button_item .edit:hover {
+              color: #3c8e87;
+              border: 1px solid #1eb180; }
+            .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .task_card .button_item .delete:hover {
+              color: #ff0202;
+              border: 1px solid #ff0202;
+              background: rgba(255, 255, 255, 0.7); }
+        .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .changes .block_text_description .input_title,
+        .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .changes .block_text_description .input_description {
+          color: #518f01;
+          font-weight: 800; }
+        .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .expired .block_text_description .input_title,
+        .container_section_task_dashboard .tab_content .tabs_dashboard .container_item .task_dashboard .expired .block_text_description .input_description {
+          color: rgba(176, 4, 4, 0.975);
+          font-weight: 800; }
+      .container_section_task_dashboard .tab_content .tabs_dashboard .container_todo h3 {
+        color: #9f6d02; }
+      .container_section_task_dashboard .tab_content .tabs_dashboard .container_completed h3 {
+        color: #3c8e87; }
+      .container_section_task_dashboard .tab_content .tabs_dashboard .container_expired h3 {
+        color: #a74747; }
+    .container_section_task_dashboard .tab_content .tabs_dashboard::-webkit-scrollbar {
+      width: 0px;
+      background: rgba(255, 255, 255, 0); }
+    .container_section_task_dashboard .tab_content .tabs_dashboard.active {
+      display: block; }
+
+@-webkit-keyframes shadow-pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.6);
+            box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.6); }
+  100% {
+    -webkit-box-shadow: 0 0 0 15px rgba(255, 255, 255, 0);
+            box-shadow: 0 0 0 15px rgba(255, 255, 255, 0); } }
+
+@keyframes shadow-pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.6);
+            box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.6); }
+  100% {
+    -webkit-box-shadow: 0 0 0 15px rgba(255, 255, 255, 0);
+            box-shadow: 0 0 0 15px rgba(255, 255, 255, 0); } }
+
+/* ----------- Media ---------------*/
+@media screen and (max-width: 680px) {
+  .task_card {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    .task_card input[type="checkbox"] {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1 1 5%;
+          -ms-flex: 1 1 5%;
+              flex: 1 1 5%; }
+    .task_card .block_text_description {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1 1 95%;
+          -ms-flex: 1 1 95%;
+              flex: 1 1 95%; }
+    .task_card .date_field_container {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1 1 100%;
+          -ms-flex: 1 1 100%;
+              flex: 1 1 100%;
+      margin-right: 0px !important; }
+    .task_card .button_item {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1 1 100%;
+          -ms-flex: 1 1 100%;
+              flex: 1 1 100%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal !important;
+      -webkit-box-direction: normal !important;
+      -webkit-flex-direction: row !important;
+          -ms-flex-direction: row !important;
+              flex-direction: row !important;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-justify-content: space-around !important;
+          -ms-flex-pack: distribute !important;
+              justify-content: space-around !important;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+      padding-left: 39px !important; }
+      .task_card .button_item .edit {
+        margin-right: 10px; }
+      .task_card .button_item .edit,
+      .task_card .button_item .delete {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 1 40%;
+            -ms-flex: 1 1 40%;
+                flex: 1 1 40%;
+        max-width: 100px; } }
+
+@media screen and (max-width: 640px) {
+  .section_two .container {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 200vw;
+    max-width: 1280px; }
+    .section_two .container .wrapper .container_section_menu {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1 1 100%;
+          -ms-flex: 1 1 100%;
+              flex: 1 1 100%;
+      max-width: 640px; }
+      .section_two .container .wrapper .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .section_two_tabs_text i {
+        font-size: -webkit-calc(20px + 1vw);
+        font-size: calc(20px + 1vw); }
+      .section_two .container .wrapper .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .section_two_tabs_text .section_two_tabs_title {
+        font-size: -webkit-calc(18px + .7vw);
+        font-size: calc(18px + .7vw); }
+      .section_two .container .wrapper .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .section_two_tabs_text .fa-plus-circle,
+      .section_two .container .wrapper .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .section_two_tabs_text .fa-plus-circle ~ span {
+        color: #6576da; }
+      .section_two .container .wrapper .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .section_two_tabs_text .fa-calendar-alt,
+      .section_two .container .wrapper .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .section_two_tabs_text .fa-calendar-alt ~ span {
+        color: #9f6d02; }
+      .section_two .container .wrapper .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .section_two_tabs_text .fa-calendar-check,
+      .section_two .container .wrapper .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .section_two_tabs_text .fa-calendar-check ~ span {
+        color: #3c8e87; }
+      .section_two .container .wrapper .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .section_two_tabs_text .fa-calendar-times,
+      .section_two .container .wrapper .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .section_two_tabs_text .fa-calendar-times ~ span {
+        color: #a74747; }
+      .section_two .container .wrapper .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs span {
+        font-size: -webkit-calc(18px + 0.7vw);
+        font-size: calc(18px + 0.7vw);
+        font-family: "MontserratBold";
+        text-transform: capitalize;
+        color: #454545;
+        margin-right: 15px; }
+      .section_two .container .wrapper .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .add_task_counter {
+        color: #6576da; }
+      .section_two .container .wrapper .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .incomplet_task_counter {
+        color: #9f6d02; }
+      .section_two .container .wrapper .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .complet_task_counter {
+        color: #3c8e87; }
+      .section_two .container .wrapper .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs .expire_task_counter {
+        color: #a74747; }
+      .section_two .container .wrapper .container_section_menu .container_section_menu_buttom .container_tabs .active {
+        background-color: transparent !important;
+        border-radius: 10px; }
+      .section_two .container .wrapper .container_section_menu .container_section_menu_buttom .container_tabs .section_two_tabs:hover {
+        background-color: rgba(69, 69, 69, 0.2);
+        border-radius: 10px; }
+    .section_two .container .wrapper .container_section_task_dashboard {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1 1 100%;
+          -ms-flex: 1 1 100%;
+              flex: 1 1 100%;
+      max-width: 640px; }
+      .section_two .container .wrapper .container_section_task_dashboard .container_section_task_dashboard_header .fa-arrow-circle-left {
+        display: unset; }
+      .section_two .container .wrapper .container_section_task_dashboard .container_section_task_dashboard_header .fa-arrow-circle-left:hover {
+        color: #4528e5; }
+      .section_two .container .wrapper .container_section_task_dashboard .task_card {
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap; }
+        .section_two .container .wrapper .container_section_task_dashboard .task_card input[type="checkbox"] {
+          -webkit-box-flex: 1;
+          -webkit-flex: 1 1 5%;
+              -ms-flex: 1 1 5%;
+                  flex: 1 1 5%; }
+        .section_two .container .wrapper .container_section_task_dashboard .task_card .block_text_description {
+          -webkit-box-flex: 1;
+          -webkit-flex: 1 1 95%;
+              -ms-flex: 1 1 95%;
+                  flex: 1 1 95%; }
+        .section_two .container .wrapper .container_section_task_dashboard .task_card .button_item {
+          -webkit-box-flex: 1;
+          -webkit-flex: 1 1 100%;
+              -ms-flex: 1 1 100%;
+                  flex: 1 1 100%;
+          -webkit-box-orient: horizontal !important;
+          -webkit-box-direction: normal !important;
+          -webkit-flex-direction: row !important;
+              -ms-flex-direction: row !important;
+                  flex-direction: row !important;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+          -webkit-flex-wrap: wrap;
+              -ms-flex-wrap: wrap;
+                  flex-wrap: wrap; }
+          .section_two .container .wrapper .container_section_task_dashboard .task_card .button_item .edit {
+            margin-right: 10px; }
+          .section_two .container .wrapper .container_section_task_dashboard .task_card .button_item .edit,
+          .section_two .container .wrapper .container_section_task_dashboard .task_card .button_item .delete {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1 1 40%;
+                -ms-flex: 1 1 40%;
+                    flex: 1 1 40%;
+            max-width: 100px; }
+  .section_two .menu_movement {
+    left: -100vw; } }
